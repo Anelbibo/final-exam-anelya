@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукция</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение иконок Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .product-card {
+            margin-bottom: 30px;
+        }
+        .product-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .product-description {
+            font-size: 16px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .product-price {
+            font-size: 20px;
+            color: #f00;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Навигация -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h1>CosmeticShop</h1>
+                <nav>
+                    <ul class="list-unstyled d-flex m-0">
+                        <li><a href="#" class="text-white mx-3">Главная</a></li>
+                        <li><a href="products.html" class="text-white mx-3">Продукция</a></li>
+                        <li><a href="about.html" class="text-white mx-3">О нас</a></li>
+                        <li><a href="contact.html" class="text-white mx-3">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Продукция -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Наша продукция</h2>
+        <div class="row">
+            <!-- Продукт 1 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://via.placeholder.com/300x250" alt="Продукт 1">
+                    <div class="card-body">
+                        <h5 class="product-title">Крем для лица с гиалуроновой кислотой</h5>
+                        <p class="product-description">Увлажняющий крем для лица с гиалуроновой кислотой, подходит для всех типов кожи.</p>
+                        <p class="product-price">Цена: 1500 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Продукт 2 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://via.placeholder.com/300x250" alt="Продукт 2">
+                    <div class="card-body">
+                        <h5 class="product-title">Шампунь для волос с маслами</h5>
+                        <p class="product-description">Шампунь с натуральными маслами для восстановления поврежденных волос.</p>
+                        <p class="product-price">Цена: 950 ₽</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Продукт 3 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://via.placeholder.com/300x250" alt="Продукт 3">
+                    <div class="card-body">
+                        <h5 class="product-title">Тональный крем с SPF 30</h5>
+                        <p class="product-description">Тональный крем с защитой от солнца, идеально скрывает несовершенства кожи.</p>
+                        <p class="product-price">Цена: 1200 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключение Bootstrap JS и jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

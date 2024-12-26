@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-color: #f8f9fa;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+}
+
+.cart {
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart ul li {
+    margin: 10px 0;
+}
+
+.cart button {
+    margin-top: 20px;
+}
